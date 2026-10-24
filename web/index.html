@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#081a2b" />
+    <meta
+      name="description"
+      content="Veda — dépôts financiers vérifiés, scellés et prouvables sur Hedera."
+    />
+    <title>Veda — Dépôts financiers vérifiés</title>
+    <script>
+      (function () {
+        try {
+          var mode = localStorage.getItem("veda.theme") || "system";
+          var dark = window.matchMedia("(prefers-color-scheme: dark)").matches;
+          document.documentElement.dataset.theme =
+            mode === "system" ? (dark ? "dark" : "light") : mode;
+        } catch (error) {
+          document.documentElement.dataset.theme = "light";
+        }
+      })();
+    </script>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
+</html>
