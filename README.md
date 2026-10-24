@@ -1,9 +1,6 @@
-<p align="center">
-  <img src="docs/veda-logo.png" alt="VEDA" height="72">
-</p>
 
 <p align="center"><b>Des états financiers vérifiés, prêts avant le marché.</b><br>
-Hedera Cross Campus Challenge — ISGT edition</p>
+Hedera Cross Campus Challenge - ISGT edition</p>
 
 ---
 
